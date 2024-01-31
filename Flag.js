@@ -6,7 +6,7 @@ request.onload=function(){
     var req = JSON.parse(request.response);
     console.log(req);
 
-    for(var i=0;i<=req.length;i++){
+    for(var i=0;i<req.length;i++){
         console.log(req[i].flags.png)
      }
 }
